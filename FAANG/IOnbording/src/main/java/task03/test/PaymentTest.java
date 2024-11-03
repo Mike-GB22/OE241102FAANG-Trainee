@@ -1,8 +1,13 @@
 package task03.test;
 
-public class LoginTest implements TestScenario{
+import java.util.Random;
+
+public class PaymentTest extends AbstractTest{
+
     @Override
-    public boolean runTest() {
-        return false;
+    FlagEntry doLogicTest(){
+        if(new Random().nextInt(10) % 2 == 1)
+            return new FlagEntry(false, "Payment failed");
+        return new FlagEntry(true, "All is ok");
     }
 }

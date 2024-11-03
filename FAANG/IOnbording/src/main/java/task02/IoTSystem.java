@@ -1,4 +1,5 @@
-//2024.11.02
+// 2024.11.02
+// Система управления IoT
 package task02;
 
 import task02.devices.IoTDevice;

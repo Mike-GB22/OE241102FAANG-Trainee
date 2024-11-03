@@ -1,2 +1,5 @@
-package task03.test;public interface TestScenario {
+package task03.test;
+
+public interface TestScenario {
+    boolean runTest();
 }
