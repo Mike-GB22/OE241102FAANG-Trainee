@@ -1,0 +1,175 @@
+------------------------------------------------------
+1) Make a University and load Students from LoadingOfStudents
+------------------------------------------------------
+=============================================
+University.
+=============================================
+Has 55 students, 5 faculties and 4 year's groups
+Has faculties: [Tech, Law, Science, Math, Arts]
+Has year's groups: [1, 2, 3, 4]
+=============================================
+List of students by faculty and year
+=============================================
+FACULTY 'Tech':
+ * YEAR 1: [Kuznetsov Dmitry, Sokolov Nikolai, Sokolov Anton, Novikov Dmitry]
+ * YEAR 2: [Novikov Oleg, Belyakov Dmitry, Popov Andrey, Semenov Anton]
+ * YEAR 3: [Semenov Igor, Krylov Sergey, Kuznetsov Sergey]
+ * YEAR 4: []
+FACULTY 'Law':
+ * YEAR 1: [Morozov Nikolai, Kuzmin Igor, Dmitriev Sergey, Dmitriev Nikolai]
+ * YEAR 2: []
+ * YEAR 3: [Sidorov Sidor, Lebedev Sergey, Borisov Nikolai, Morozov Andrey]
+ * YEAR 4: [Dmitriev Pavel, Shestakov Anton, Sidorov Nikolai]
+FACULTY 'Science':
+ * YEAR 1: [Gusev Roman, Kolesnikov Alexey, Petrov Dmitry]
+ * YEAR 2: [Petrov Petr, Karpov Dmitry, Vlasov Dmitry, Vasiliev Roman]
+ * YEAR 3: [Vasiliev Andrey, Frolov Roman, Fedorov Roman, Gusev Sergey]
+ * YEAR 4: []
+FACULTY 'Math':
+ * YEAR 1: []
+ * YEAR 2: [Kovalev Anton, Pavlov Igor, Smirnov Pavel]
+ * YEAR 3: []
+ * YEAR 4: [Smirnov Alexey, Fedorov Viktor, Mikhailov Andrey, Gromov Pavel, Karpov Pavel, Kuznetsov Igor, Fedorov Igor, Kovalev Pavel]
+FACULTY 'Arts':
+ * YEAR 1: [Ivanov Ivan, Zaitsev Alexey, Semyonov Alex, Popov Alexey]
+ * YEAR 2: [Popov Sergey, Tikhonov Alex, Morozov Alexey, Borisov Alex]
+ * YEAR 3: [Borisov Alex, Svetlov Oleg, Ivanov Alex]
+ * YEAR 4: []
+=============================================
+
+------------------------------------------------------
+2) Add one student (1) und list of students (2 - end):
+[Zaitsev Dmitry (from Arts, year 5), Karpov Alexey (from Science, year 5), Lebedev Igor (from Law, year 5), Mikhailov Sergey (from Math, year 5), Sokolov Anton (from Tech, year 5), Tikhonov Pavel (from Arts, year 5), Frolov Roman (from Science, year 5), Kuzmin Alex (from Law, year 5), Gromov Andrey (from Math, year 5), Belyakov Oleg (from Tech, year 5)]
+------------------------------------------------------
+Uni has students: 55
+Add one student. Now Uni has students: 56
+Add other students. Now Uni has students: 65
+=============================================
+University.
+=============================================
+Has 65 students, 5 faculties and 5 year's groups
+Has faculties: [Tech, Law, Science, Math, Arts]
+Has year's groups: [1, 2, 3, 4, 5]
+=============================================
+List of students by faculty and year
+=============================================
+FACULTY 'Tech':
+ * YEAR 1: [Kuznetsov Dmitry, Sokolov Nikolai, Sokolov Anton, Novikov Dmitry]
+ * YEAR 2: [Novikov Oleg, Belyakov Dmitry, Popov Andrey, Semenov Anton]
+ * YEAR 3: [Semenov Igor, Krylov Sergey, Kuznetsov Sergey]
+ * YEAR 4: []
+ * YEAR 5: [Sokolov Anton, Belyakov Oleg]
+FACULTY 'Law':
+ * YEAR 1: [Morozov Nikolai, Kuzmin Igor, Dmitriev Sergey, Dmitriev Nikolai]
+ * YEAR 2: []
+ * YEAR 3: [Sidorov Sidor, Lebedev Sergey, Borisov Nikolai, Morozov Andrey]
+ * YEAR 4: [Dmitriev Pavel, Shestakov Anton, Sidorov Nikolai]
+ * YEAR 5: [Lebedev Igor, Kuzmin Alex]
+FACULTY 'Science':
+ * YEAR 1: [Gusev Roman, Kolesnikov Alexey, Petrov Dmitry]
+ * YEAR 2: [Petrov Petr, Karpov Dmitry, Vlasov Dmitry, Vasiliev Roman]
+ * YEAR 3: [Vasiliev Andrey, Frolov Roman, Fedorov Roman, Gusev Sergey]
+ * YEAR 4: []
+ * YEAR 5: [Karpov Alexey, Frolov Roman]
+FACULTY 'Math':
+ * YEAR 1: []
+ * YEAR 2: [Kovalev Anton, Pavlov Igor, Smirnov Pavel]
+ * YEAR 3: []
+ * YEAR 4: [Smirnov Alexey, Fedorov Viktor, Mikhailov Andrey, Gromov Pavel, Karpov Pavel, Kuznetsov Igor, Fedorov Igor, Kovalev Pavel]
+ * YEAR 5: [Mikhailov Sergey, Gromov Andrey]
+FACULTY 'Arts':
+ * YEAR 1: [Ivanov Ivan, Zaitsev Alexey, Semyonov Alex, Popov Alexey]
+ * YEAR 2: [Popov Sergey, Tikhonov Alex, Morozov Alexey, Borisov Alex]
+ * YEAR 3: [Borisov Alex, Svetlov Oleg, Ivanov Alex]
+ * YEAR 4: []
+ * YEAR 5: [Zaitsev Dmitry, Tikhonov Pavel]
+=============================================
+
+------------------------------------------------------
+3) Delete one student (1) und list of students (2 - end):
+[Zaitsev Dmitry (from Arts, year 5), Karpov Alexey (from Science, year 5), Lebedev Igor (from Law, year 5), Mikhailov Sergey (from Math, year 5), Sokolov Anton (from Tech, year 5), Tikhonov Pavel (from Arts, year 5), Frolov Roman (from Science, year 5), Kuzmin Alex (from Law, year 5), Gromov Andrey (from Math, year 5), Belyakov Oleg (from Tech, year 5)]
+------------------------------------------------------
+Uni has students: 65
+Delete one student. Now Uni has students: 64
+Delete other students. Now Uni has students: 55
+=============================================
+University.
+=============================================
+Has 55 students, 5 faculties and 4 year's groups
+Has faculties: [Tech, Law, Science, Math, Arts]
+Has year's groups: [1, 2, 3, 4]
+=============================================
+List of students by faculty and year
+=============================================
+FACULTY 'Tech':
+ * YEAR 1: [Kuznetsov Dmitry, Sokolov Nikolai, Sokolov Anton, Novikov Dmitry]
+ * YEAR 2: [Novikov Oleg, Belyakov Dmitry, Popov Andrey, Semenov Anton]
+ * YEAR 3: [Semenov Igor, Krylov Sergey, Kuznetsov Sergey]
+ * YEAR 4: []
+FACULTY 'Law':
+ * YEAR 1: [Morozov Nikolai, Kuzmin Igor, Dmitriev Sergey, Dmitriev Nikolai]
+ * YEAR 2: []
+ * YEAR 3: [Sidorov Sidor, Lebedev Sergey, Borisov Nikolai, Morozov Andrey]
+ * YEAR 4: [Dmitriev Pavel, Shestakov Anton, Sidorov Nikolai]
+FACULTY 'Science':
+ * YEAR 1: [Gusev Roman, Kolesnikov Alexey, Petrov Dmitry]
+ * YEAR 2: [Petrov Petr, Karpov Dmitry, Vlasov Dmitry, Vasiliev Roman]
+ * YEAR 3: [Vasiliev Andrey, Frolov Roman, Fedorov Roman, Gusev Sergey]
+ * YEAR 4: []
+FACULTY 'Math':
+ * YEAR 1: []
+ * YEAR 2: [Kovalev Anton, Pavlov Igor, Smirnov Pavel]
+ * YEAR 3: []
+ * YEAR 4: [Smirnov Alexey, Fedorov Viktor, Mikhailov Andrey, Gromov Pavel, Karpov Pavel, Kuznetsov Igor, Fedorov Igor, Kovalev Pavel]
+FACULTY 'Arts':
+ * YEAR 1: [Ivanov Ivan, Zaitsev Alexey, Semyonov Alex, Popov Alexey]
+ * YEAR 2: [Popov Sergey, Tikhonov Alex, Morozov Alexey, Borisov Alex]
+ * YEAR 3: [Borisov Alex, Svetlov Oleg, Ivanov Alex]
+ * YEAR 4: []
+=============================================
+
+------------------------------------------------------
+4) Search/get h all students from faculty 'Tech', year 1.
+------------------------------------------------------
+[Kuznetsov Dmitry (from Tech, year 1), Sokolov Nikolai (from Tech, year 1), Sokolov Anton (from Tech, year 1), Novikov Dmitry (from Tech, year 1)]
+------------------------------------------------------
+5) Delete all students from faculty 'Tech', year 1.
+------------------------------------------------------
+=============================================
+University.
+=============================================
+Has 51 students, 5 faculties and 4 year's groups
+Has faculties: [Tech, Law, Science, Math, Arts]
+Has year's groups: [1, 2, 3, 4]
+=============================================
+List of students by faculty and year
+=============================================
+FACULTY 'Tech':
+ * YEAR 1: []
+ * YEAR 2: [Novikov Oleg, Belyakov Dmitry, Popov Andrey, Semenov Anton]
+ * YEAR 3: [Semenov Igor, Krylov Sergey, Kuznetsov Sergey]
+ * YEAR 4: []
+FACULTY 'Law':
+ * YEAR 1: [Morozov Nikolai, Kuzmin Igor, Dmitriev Sergey, Dmitriev Nikolai]
+ * YEAR 2: []
+ * YEAR 3: [Sidorov Sidor, Lebedev Sergey, Borisov Nikolai, Morozov Andrey]
+ * YEAR 4: [Dmitriev Pavel, Shestakov Anton, Sidorov Nikolai]
+FACULTY 'Science':
+ * YEAR 1: [Gusev Roman, Kolesnikov Alexey, Petrov Dmitry]
+ * YEAR 2: [Petrov Petr, Karpov Dmitry, Vlasov Dmitry, Vasiliev Roman]
+ * YEAR 3: [Vasiliev Andrey, Frolov Roman, Fedorov Roman, Gusev Sergey]
+ * YEAR 4: []
+FACULTY 'Math':
+ * YEAR 1: []
+ * YEAR 2: [Kovalev Anton, Pavlov Igor, Smirnov Pavel]
+ * YEAR 3: []
+ * YEAR 4: [Smirnov Alexey, Fedorov Viktor, Mikhailov Andrey, Gromov Pavel, Karpov Pavel, Kuznetsov Igor, Fedorov Igor, Kovalev Pavel]
+FACULTY 'Arts':
+ * YEAR 1: [Ivanov Ivan, Zaitsev Alexey, Semyonov Alex, Popov Alexey]
+ * YEAR 2: [Popov Sergey, Tikhonov Alex, Morozov Alexey, Borisov Alex]
+ * YEAR 3: [Borisov Alex, Svetlov Oleg, Ivanov Alex]
+ * YEAR 4: []
+=============================================
+
+
+Process finished with exit code 0
