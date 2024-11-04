@@ -1,0 +1,49 @@
+=======================================
+Library has 1 shelves:
+[0]
+=======================================
+Library has 10 books:
+[Book 'The Road' by 'Cormac McCarthy' (2006), Book 'The Grapes of Wrath' by 'John Steinbeck' (1939), Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880), Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951), Book 'The Hobbit' by 'J.R.R. Tolkien' (1937), Book 'Crime and Punishment' by 'Fyodor Dostoevsky' (1866), Book 'Fahrenheit 451' by 'Ray Bradbury' (1953), Book 'Brave New World' by 'Aldous Huxley' (1932), Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890), Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+=======================================
+Books on Shelves:
+Shelf [0] has 10 books: [Book 'The Road' by 'Cormac McCarthy' (2006), Book 'The Grapes of Wrath' by 'John Steinbeck' (1939), Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880), Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951), Book 'The Hobbit' by 'J.R.R. Tolkien' (1937), Book 'Crime and Punishment' by 'Fyodor Dostoevsky' (1866), Book 'Fahrenheit 451' by 'Ray Bradbury' (1953), Book 'Brave New World' by 'Aldous Huxley' (1932), Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890), Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+=======================================
+
+-------------------------------
+Rearrange the books on the shelves
+-------------------------------
+=======================================
+Library has 5 shelves:
+[0, 1, 2, 3, 4]
+=======================================
+Library has 10 books:
+[Book 'The Road' by 'Cormac McCarthy' (2006), Book 'The Grapes of Wrath' by 'John Steinbeck' (1939), Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880), Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951), Book 'The Hobbit' by 'J.R.R. Tolkien' (1937), Book 'Crime and Punishment' by 'Fyodor Dostoevsky' (1866), Book 'Fahrenheit 451' by 'Ray Bradbury' (1953), Book 'Brave New World' by 'Aldous Huxley' (1932), Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890), Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+=======================================
+Books on Shelves:
+Shelf [0] has 2 books: [Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951), Book 'Crime and Punishment' by 'Fyodor Dostoevsky' (1866)]
+Shelf [1] has 2 books: [Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880), Book 'The Hobbit' by 'J.R.R. Tolkien' (1937)]
+Shelf [2] has 2 books: [Book 'The Grapes of Wrath' by 'John Steinbeck' (1939), Book 'Fahrenheit 451' by 'Ray Bradbury' (1953)]
+Shelf [3] has 2 books: [Book 'Brave New World' by 'Aldous Huxley' (1932), Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+Shelf [4] has 2 books: [Book 'The Road' by 'Cormac McCarthy' (2006), Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890)]
+=======================================
+
+-------------------------------
+Remove a half books
+-------------------------------
+=======================================
+Library has 5 shelves:
+[0, 1, 2, 3, 4]
+=======================================
+Library has 5 books:
+[Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880), Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951), Book 'Fahrenheit 451' by 'Ray Bradbury' (1953), Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890), Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+=======================================
+Books on Shelves:
+Shelf [0] has 1 books: [Book 'The Catcher in the Rye' by 'J.D. Salinger' (1951)]
+Shelf [1] has 1 books: [Book 'The Brothers Karamazov' by 'Fyodor Dostoevsky' (1880)]
+Shelf [2] has 1 books: [Book 'Fahrenheit 451' by 'Ray Bradbury' (1953)]
+Shelf [3] has 1 books: [Book 'The Old Man and the Sea' by 'Ernest Hemingway' (1952)]
+Shelf [4] has 1 books: [Book 'The Picture of Dorian Gray' by 'Oscar Wilde' (1890)]
+=======================================
+
+
+Process finished with exit code 0
