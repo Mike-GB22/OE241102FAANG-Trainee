@@ -1,3 +1,11 @@
 commit1
 commit2
 commit3
+<<<<<<< HEAD
+=======
+commit5.3
+commit6.1
+commit6.2
+commit6.3
+commit7 for revert
+>>>>>>> 51c6f21 (Revert "Revert "M: 1.Onbording. Taеsk 06. Part 4. Cherry-pick. Commit 7 for revert"")
